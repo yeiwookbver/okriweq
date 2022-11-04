@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dnhexg
+  name: maker
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: dnhexg
+      app: maker
   template:
     metadata:
       labels:
-        app: dnhexg
+        app: maker
     spec:
       containers:
-      - image: okteto.dev/dnhexg:latest
-        name: dnhexg
+      - image: okteto.dev/maker:latest
+        name: maker
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "www.plex.tv"
         - name: Vless_UUID
-          value: "c6de7d2e-9e8f-43d4-b7f4-bcd942444030"
+          value: "2800e0c1-4f46-45be-b621-83750d5b2ebe"
         - name: Vless_Path
-          value: "/c6de7d2e-9e8f-43d4-b7f4-bcd942444030"
+          value: "/2800e0c1-4f46-45be-b621-83750d5b2ebe"
         - name: Vmess_UUID
-          value: "02d4be4a-4b94-4c4f-8c04-ad1da8e45331"
+          value: "d398eebe-3c19-4105-a335-54ab1028af03"
         - name: Vmess_Path
-          value: "/02d4be4a-4b94-4c4f-8c04-ad1da8e45331"
+          value: "/d398eebe-3c19-4105-a335-54ab1028af03"
         - name: Share_Path
           value: "/Share039"
