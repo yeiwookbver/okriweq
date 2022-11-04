@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: goerm
+  name: xroke
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: goerm
+      app: xroke
   template:
     metadata:
       labels:
-        app: goerm
+        app: xroke
     spec:
       containers:
-      - image: okteto.dev/goerm:latest
-        name: goerm
+      - image: okteto.dev/xroke:latest
+        name: xroke
         ports:
         - containerPort: 8080
         env:
