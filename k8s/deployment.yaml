@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dnhexg
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dnhexg
+  template:
+    metadata:
+      labels:
+        app: dnhexg
+    spec:
+      containers:
+      - image: okteto.dev/dnhexg:latest
+        name: dnhexg
+        ports:
+        - containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080"
+        - name: ProxySite
+          value: "www.plex.tv"
+        - name: Vless_UUID
+          value: "c6de7d2e-9e8f-43d4-b7f4-bcd942444030"
+        - name: Vless_Path
+          value: "/c6de7d2e-9e8f-43d4-b7f4-bcd942444030"
+        - name: Vmess_UUID
+          value: "02d4be4a-4b94-4c4f-8c04-ad1da8e45331"
+        - name: Vmess_Path
+          value: "/02d4be4a-4b94-4c4f-8c04-ad1da8e45331"
+        - name: Share_Path
+          value: "/Share039"
