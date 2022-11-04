@@ -1,6 +1,7 @@
 # Okteto一键部署VLESS-VMESS
 # uuid：https://www.uuidgenerator.net
 # 本项目有封号的危险！不要用常用的github！！
+# 请下载到自己的仓库部署
 
 Vless & Vmess: 
 
