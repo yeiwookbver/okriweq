@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: komer
+  name: goerm
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: komer
+      app: goerm
   template:
     metadata:
       labels:
-        app: komer
+        app: goerm
     spec:
       containers:
-      - image: okteto.dev/komer:latest
-        name: komer
+      - image: okteto.dev/goerm:latest
+        name: goerm
         ports:
         - containerPort: 8080
         env:
