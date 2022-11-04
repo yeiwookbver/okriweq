@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: xroke
+  name: foerm
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "xroke"
+  - name: "foerm"
     port: 8080
   selector:
-    app: xroke
+    app: foerm
