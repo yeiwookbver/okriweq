@@ -10,21 +10,21 @@
 
     "Vless_UUID": {
       "description": "Vless uuid（http://www.uuid.online/在线生成）",
-      "value": "c6de7d2e-9e8f-43d4-b7f4-bcd942444030"
+      "value": "2800e0c1-4f46-45be-b621-83750d5b2ebe"
     },
 
     "Vless_Path": {
       "description": "Path路径，默认/s233,为了安全你也可以使用uuid替换s233，/不能少。如果开启反代，不要与反代网站存在的uri相同",
-      "value": "/c6de7d2e-9e8f-43d4-b7f4-bcd942444030"
+      "value": "/2800e0c1-4f46-45be-b621-83750d5b2ebe"
     },
     "Vmess_UUID": {
       "description": "Vmess uuid（http://www.uuid.online/在线生成）",
-      "value": "02d4be4a-4b94-4c4f-8c04-ad1da8e45331"
+      "value": "d398eebe-3c19-4105-a335-54ab1028af03"
     },
 
     "Vmess_Path": {
       "description": "Path路径，默认/s244,为了安全你也可以使用uuid替换s244，/不能少。如果开启反代，不要与反代网站存在的uri相同",
-      "value": "/02d4be4a-4b94-4c4f-8c04-ad1da8e45331"
+      "value": "/d398eebe-3c19-4105-a335-54ab1028af03"
     },
     
     "Share_Path": {
