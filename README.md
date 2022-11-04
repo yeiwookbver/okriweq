@@ -1,5 +1,6 @@
 # Okteto一键部署VLESS-VMESS
 # uuid：https://www.uuidgenerator.net
+# xray内核：https://github.com/XTLS/Xray-core/releases
 # 本项目有封号的危险！！不要用常用的github！！
 
 Vless & Vmess: 
