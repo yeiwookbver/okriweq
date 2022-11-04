@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: maker
+  name: comker
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: maker
+      app: comker
   template:
     metadata:
       labels:
-        app: maker
+        app: comker
     spec:
       containers:
-      - image: okteto.dev/maker:latest
-        name: maker
+      - image: okteto.dev/comker:latest
+        name: comker
         ports:
         - containerPort: 8080
         env:
