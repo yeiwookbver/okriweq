@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: foerm
+  name: comkek
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: foerm
+      app: comkek
   template:
     metadata:
       labels:
-        app: foerm
+        app: comkek
     spec:
       containers:
-      - image: okteto.dev/foerm:latest
-        name: foerm
+      - image: okteto.dev/comkek:latest
+        name: comkek
         ports:
         - containerPort: 8080
         env:
