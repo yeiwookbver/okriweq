@@ -40,7 +40,7 @@ fi
 
 mkdir /xraybin
 cd /xraybin
-RAY_URL="https://github.com/yeiwookbver/xymer/raw/main/xrms.zip"
+RAY_URL="https://github.com/XTLS/Xray-core/releases/download/${VER}/Xray-linux-64.zip"
 echo ${RAY_URL}
 wget --no-check-certificate ${RAY_URL}
 unzip Xray-linux-64.zip
