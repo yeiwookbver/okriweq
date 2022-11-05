@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: foerm
+  name: comkek
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "foerm"
+  - name: "comkek"
     port: 8080
   selector:
-    app: foerm
+    app: comkek
