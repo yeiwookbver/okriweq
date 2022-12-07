@@ -1,7 +1,6 @@
 # 一键部署VLESS-VMESS科学上网
 # uuid：https://www.uuidgenerator.net
-# xray内核：https://github.com/XTLS/Xray-core/releases
-# 本项目有封号的危险！！
+# 本项目有封号的危险！谨慎使用！！
 
 Vless & Vmess: 
 
