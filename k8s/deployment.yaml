@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: xoskewe
+  name: booker
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: xoskewe
+      app: booker
   template:
     metadata:
       labels:
-        app: xoskewe
+        app: booker
     spec:
       containers:
-      - image: okteto.dev/xoskewe:latest
-        name: xoskewe
+      - image: okteto.dev/booker:latest
+        name: booker
         ports:
         - containerPort: 8080
         env:
