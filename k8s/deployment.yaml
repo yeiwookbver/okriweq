@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: comkek
+  name: byoerk
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: comkek
+      app: byoerk
   template:
     metadata:
       labels:
-        app: comkek
+        app: byoerk
     spec:
       containers:
-      - image: okteto.dev/comkek:latest
-        name: comkek
+      - image: okteto.dev/byoerk:latest
+        name: byoerk
         ports:
         - containerPort: 8080
         env:
